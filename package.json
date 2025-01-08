@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "bs-config.js",
   "scripts": {
-    "start": "concurrently \"node initialize.min.js \" \"browser-sync start --config bs-config.min.js\"  \"node ws-server.min.js\""
+    "start": "concurrently \"node initialize.min.js \" \"browser-sync start --config bs-config.min.js\"  \"bun ws-server.min.js\""
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bun": "^1.1.43",
     "chokidar": "^4.0.3",
     "concurrently": "^9.1.2"
   }

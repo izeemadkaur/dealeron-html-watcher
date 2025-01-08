@@ -1,7 +1,6 @@
 .env
-/dealerships/**/*.html
 /dealerships/**/*.css
-preview-html.js
+master.js
 node_modules
 ADD_CODE_TO_CMS.html
 bun.lockb
