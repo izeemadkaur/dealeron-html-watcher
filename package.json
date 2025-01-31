@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "bs-config.js",
   "scripts": {
-    "start": "concurrently \"node initialize.min.js \" \"browser-sync start --config bs-config.min.js\"  \"bun z-server.js\""
+    "start": "concurrently \"node initialize.min.js \" \"browser-sync start --config bs-config.min.js\"  \"bun ws-server.min.js\""
   },
   "author": "",
   "license": "ISC",
